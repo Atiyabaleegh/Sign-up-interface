@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, #12101c 10%,#181534 80%,#0c042c  );
+    color: white;
+    font-family: sans-serif;
+}
+.mainbox{
+    font-size: 7px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+
+
+  }
+  .home{
+    margin-bottom: 100px;
+   
+  }
+.parent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.main-container{
+  font-size: 12px;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+.child-container{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background: linear-gradient(to right, #100e18 10%,#221e46 80%,#0d0638  );
+    height: 480px;
+    width: 400px;
+}
+.child-container h1,img{
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.google{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 150px;
+    margin-left: 40px ;
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.github{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 40px ;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 20px;
+    color: rgb(192, 185, 185);
+}
